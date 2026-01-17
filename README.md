@@ -4,7 +4,7 @@ If you find our work useful please cite:
 ```
 @article{SG-MM,
     title={Spatially Generalizable Mobile Manipulation via Adaptive Experience Selection and Dynamic Imagination},
-    journal={International Joint Conference on Artificial Intelligence}, 
+    journal={Proceeding of the XXX}, 
     author={Ping Zhong and Liangbai Liu and Bolei Chen and Tao Wu},
     year={2026},
 }
