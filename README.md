@@ -1,12 +1,12 @@
-This is the repository that contains source code for [our website](https://csu-robotics-research.github.io/DTR_WEB/).
+This is the repository that contains source code for [our website](https://307lab.github.io/SG-MM_Web/).
 
 If you find our work useful please cite:
 ```
-@article{
-  author    = {LiangBai Liu and Tao Wu and Bolei Chen},
-  title     = {Learning to Reinforce and Generalize Mobile Manipulation via Dynamics Imagination and Adaptive Experience Selection},
-  journal   = {Proceedings of the XXX},
-  year      = {2026},
+@article{SG-MM,
+    title={Spatially Generalizable Mobile Manipulation via Adaptive Experience Selection and Dynamic Imagination},
+    journal={International Joint Conference on Artificial Intelligence}, 
+    author={Ping Zhong and Liangbai Liu and Bolei Chen and Tao Wu},
+    year={2026},
 }
 ```
 
