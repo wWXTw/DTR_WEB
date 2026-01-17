@@ -41,8 +41,7 @@
 </head>
 
 <body>
-
-  <nav class="navbar" role="navigation" aria-label="main navigation">
+  <!-- <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
         <span aria-hidden="true"></span>
@@ -55,7 +54,7 @@
       </div>
 
     </div>
-  </nav>
+  </nav> -->
 
   <section class="hero">
     <div class="hero-body pb-0">
@@ -103,33 +102,26 @@
 
 
             <div class="publication-links">
+              <!-- todo 放arxiv -->
               <span class="link-block">
-                <!-- todo -->
-                <!-- arxiv页面 -->
-                <a href="https://arxiv.org" class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
+                <a href="YOUR_ARXIV_URL" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="ai ai-arxiv"></i></span>
                   <span>arXiv</span>
                 </a>
               </span>
-              <!-- Supplementary Link. -->
+              <!-- todo 放论文 -->
               <span class="link-block">
-                <!-- todo -->
-                <!-- 论文PDF -->
-                <a href="" class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="fas fa-file-pdf"></i>
-                  </span>
+                <a href="./static/videos/nerfies_paper.pdf"
+                  class="external-link button is-normal is-rounded is-dark custom-paper" download>
+                  <span class="icon"><i class="fas fa-file-pdf"></i></span>
                   <span>Paper</span>
                 </a>
               </span>
-              <!-- Code Link. -->
+
               <span class="link-block">
-                <a href="https://github.com/307Lab/SG-MM" class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="fab fa-github"></i>
-                  </span>
+                <a href="https://github.com/307Lab/SG-MM"
+                  class="external-link button is-normal is-rounded is-dark custom-code">
+                  <span class="icon"><i class="fab fa-github"></i></span>
                   <span>Code</span>
                 </a>
               </span>
@@ -180,7 +172,6 @@
       <!--/ Abstract. -->
 
       <!-- Method. -->
-      <!-- todo 换图 -->
       <div class="container is-max-desktop">
         <div class="columns is-centered has-text-centered">
           <div class="column is-full">
@@ -514,16 +505,41 @@
       <br>
 
       <!-- Video. -->
+      <!-- todo -->
+      <!-- 挂视频 -->
       <div class="columns is-centered has-text-centered">
-        <div class="column is-two-thirds">
+        <div class="column is-four-fifths">
           <h2 class="title is-3">Videos</h2>
-          <!-- todo -->
-          <!-- 放入真机实验视频 -->
-          <div class="notification is-info is-light">
-            <i class="fas fa-info-circle"></i>
-            <strong>Coming Soon:</strong> Videos of real-world experiments will be uploaded here following the
-            completion of our physical robot trials.
+
+          <div class="video-container" style="margin-bottom: 3rem;">
+            <div class="content">
+              <h3 class="title is-5">Experiment Scenario 1</h3>
+              <video poster="" autoplay controls muted playsinline style="width: 100%;">
+                <source src="./static/videos/video_1.mp4" type="video/mp4">
+              </video>
+              <p>Execute a short-path task to pick up and deposit the water bottle at the specified target.(10X Speed)
+              </p>
+            </div>
           </div>
+
+          <div class="video-container" style="margin-bottom: 3rem;">
+            <div class="content">
+              <h3 class="title is-5">Experiment Scenario 2</h3>
+              <video poster="" autoplay controls muted playsinline style="width: 100%;">
+                <source src="./static/videos/video_2.mp4" type="video/mp4">
+              </video>
+              <p>Pick up and place the water bottle at the designated location via a long path while avoiding
+                obstacles.(10X Speed)
+              </p>
+
+              <video poster="" autoplay controls muted playsinline style="width: 100%;">
+                <source src="./static/videos/video_3.mp4" type="video/mp4">
+              </video>
+              <p>Pick up the water bottle and hand it over to the person in the camera view.(10X Speed)
+              </p>
+            </div>
+          </div>
+
         </div>
       </div>
   </section>
@@ -547,7 +563,8 @@
       <div class="content has-text-centered">
         <!-- todo -->
         <!-- 论文PDF -->
-        <a class="icon-link" href="./static/videos/nerfies_paper.pdf">
+        <a class="icon-link" href="put your path here"
+          download="Spatially Generalizable Mobile Manipulation via Adaptive Experience Selection and Dynamic Imagination.pdf">
           <i class="fas fa-file-pdf"></i>
         </a>
         <a class="icon-link" href="https://github.com/nblkStudy" class="external-link" disabled>
